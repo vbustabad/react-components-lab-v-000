@@ -34,9 +34,11 @@ export class OlderCoaster extends Component {
 export class InFrontOfYou extends Component {
   render() {
     return (
-      <p>
-        {this.props.solutionInformation}
-      </p>
+      <div>
+        <p>
+          {this.props.solutionInformation}
+        </p>
+      </div>
     )
   }
 }
