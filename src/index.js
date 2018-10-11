@@ -36,7 +36,13 @@ export class InFrontOfYou extends Component {
 }
 
 export class ButcherShop extends Component {
-  // your code here
+  render() {
+    return (
+      <p>
+        {this.props.saleMessage}
+      </p>
+    )
+  }
 }
 
 
