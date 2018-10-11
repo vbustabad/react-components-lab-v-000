@@ -17,12 +17,14 @@ export class OlderCoaster extends Component {
   render() {
     return (
       <div class="oldercoaster">
-      <p>
-        {this.props.passengerText}
-      </p>
-      <li>
-        {this.props.passengerNames}
-      </li>
+        <p>
+          {this.props.passengerText}
+        </p>
+        <ul>
+          <li>
+            {this.props.passengerNames}
+          </li>
+        </ul>
       </div>
     )
   }
