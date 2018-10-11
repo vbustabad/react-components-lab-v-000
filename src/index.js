@@ -8,7 +8,7 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ]
 
-const products = [<li>{BUTCHER_PRODUCTS[0]}</li>, <li>BUTCHER_PRODUCTS[1]</li>, etc...]
+const products = [<li>{BUTCHER_PRODUCTS[0]}</li>, <li>{BUTCHER_PRODUCTS[1]}</li>, <li>{BUTCHER_PRODUCTS[2]}</li>, <li>{BUTCHER_PRODUCTS[3]}</li>]
 
 // Define these exported classes
 export class OlderCoaster extends Component {
