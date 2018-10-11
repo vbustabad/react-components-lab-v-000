@@ -16,12 +16,14 @@ export class OlderCoaster extends Component {
   // this function should return the JSX we want the DOM to render
   render() {
     return (
+      <div class="oldercoaster">
       <p>
         {this.props.passengerText}
       </p>
       <li>
         {this.props.passengerNames}
       </li>
+      </div>
     )
   }
 
@@ -55,7 +57,7 @@ export class App extends Component {
   render() {
     return (
       <div id="app">
-
+        <OlderCoaster passengerText={"Dear Reader: Bjarne Stroustrup has the perfect lecture oration."}/>
       </div>
     )
   }
