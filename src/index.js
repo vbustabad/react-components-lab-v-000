@@ -12,12 +12,14 @@ const BUTCHER_PRODUCTS = [
 export class OlderCoaster extends Component {
 
   // this function should return the JSX we want the DOM to render
-  // render() {
-  //   return (
-  //     <div>Hello!</div>
-  //   )
-  // }
-  //
+  render() {
+    return (
+      <p>
+        {this.props.passengerText}
+      </p>
+    )
+  }
+  
 }
 
 export class InFrontOfYou extends Component {
