@@ -17,9 +17,12 @@ export class OlderCoaster extends Component {
       <p>
         {this.props.passengerText}
       </p>
+      <li>
+        {this.props.passengerNames}
+      </li>
     )
   }
-  
+
 }
 
 export class InFrontOfYou extends Component {
