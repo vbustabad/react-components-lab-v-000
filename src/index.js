@@ -26,7 +26,13 @@ export class OlderCoaster extends Component {
 }
 
 export class InFrontOfYou extends Component {
-  // your code here
+  render() {
+    return (
+      <p>
+        {this.props.solutionInformation}
+      </p>
+    )
+  }
 }
 
 export class ButcherShop extends Component {
