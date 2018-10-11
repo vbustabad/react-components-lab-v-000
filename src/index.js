@@ -8,6 +8,8 @@ const BUTCHER_PRODUCTS = [
   'Ribeye'
 ]
 
+const products = [<li>{BUTCHER_PRODUCTS[0]}</li>, <li>BUTCHER_PRODUCTS[1]</li>, etc...]
+
 // Define these exported classes
 export class OlderCoaster extends Component {
 
@@ -41,6 +43,9 @@ export class ButcherShop extends Component {
       <p>
         {this.props.saleMessage}
       </p>
+      <li>
+        { products }
+      </li>
     )
   }
 }
