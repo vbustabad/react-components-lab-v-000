@@ -65,7 +65,7 @@ export class App extends Component {
   render() {
     return (
       <div id="app">
-        <OlderCoaster passengerText={"Dear Reader: Bjarne Stroustrup has the perfect lecture oration."}/>
+        
       </div>
     )
   }
