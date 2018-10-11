@@ -46,12 +46,16 @@ export class InFrontOfYou extends Component {
 export class ButcherShop extends Component {
   render() {
     return (
-      <p>
-        {this.props.saleMessage}
-      </p>
-      <li>
-        { products }
-      </li>
+      <div class="butcher-shop">
+        <p>
+          {this.props.saleMessage}
+        </p>
+        <ul>
+          <li>
+            { products }
+          </li>
+        </ul>
+      </div>
     )
   }
 }
